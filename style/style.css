@@ -6,27 +6,110 @@ red #BD4932
 yellow #FFD34E
 black #3D3934 */
 
-@import 'normalize.css';
+/* global START */
+p {
+    opacity: 0.9;
+}
+/* global END */
 
-#navbar {
-    background-color: #3d3934;
+/* header START */
+
+.jumbotron {
+    background: url(../img/swimming-school.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh
 }
 
-.nav-link, .fa-bars {
+h1 {
+    font-family: 'heebo', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #fff;
+    opacity: 0.8;
+    text-shadow: 0 0 8px black;
+}
+/* header END */
+/* navbar START */
+.navbar {
+    background-color: #3d3934;
+    position: sticky;
+    top:54px;
+    z-index: 1020;
+    transform: translateY(-54px);
+    /* margin-bottom: -100%; */
+}
+
+.fa-home {
+    font-size: 20px
+}
+
+#responsive-contact:active {
+    opacity: 0.6;
+}
+
+.nav-link, .fa-bars, .fa-home {
     color: #fffbec;
 }
 
-.nav-link:hover, .fa-bars:hover {
-    color: #00A388;
+.nav-link:hover, .fa-bars:hover, .fa-home:hover {
+    color: #ffd34e;
+    outline: none;
 }
+
+.nav-link:focus, .fa-bars:focus, .fa-home:focus {
+    color: #ffd34e;
+    outline: none;
+}
+
 
 .gold {
     background-color: #ffd34e;
     color: #3D3934;
 }
 
-.jumbotron img {
-    background-size: cover;
-    background-position: center;
+.gold:hover {
+    color: #fffbec;
+}
+/* navbar END */
+/* benefits START */
+
+.fa-grin, .fa-handshake, .fa-award {
+    font-size: 45px;
 }
 
+.fa-grin, #happy-costumers h3 {
+    color: #105b63;
+}
+
+.fa-handshake, #personal-service h3 {
+    color: #105b63;
+}
+
+.fa-award, #professional h3 {
+    color: #105b63;
+}
+
+
+/* benefits END */
+
+#dummy {
+    min-height: 1000px;
+}
+
+/* landscape size START */
+@media screen and (min-width: 576px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+}
+/* landscape size END */
+/* tablet size START */
+@media screen and (min-width: 768px) {
+    
+}
+/* tablet size END */
+/* desktop size START */
+@media screen and (min-width: 992px) {
+    
+}
+/* desktop size END */

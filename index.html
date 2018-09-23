@@ -7,43 +7,71 @@
     <!-- links -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Assistant|Heebo" rel="stylesheet">    <link rel="stylesheet" href="style/style.css">
     <title>תום פפר עבודות גינון</title>
   </head>
   <body class="text-right">
 
     <header>
         <!-- jumbotron START -->
-        <div class="jumbotron jumbotron-fluid my-0 p-0">
-            <img class="w-100" id="jumbo-img" src="img/swimming-school.jpg" alt="">
+        <div class="jumbotron jumbotron-fluid my-0 p-0 d-flex justify-content-center align-items-center">
+            <h1 class="text-center m-0">תום פפר<div class="w-100 d-lg-none"></div> עבודות גינון</h1>
         </div>
         <!-- jumbotron END -->
     </header>
 
-    <nav id="navbar" class="navbar sticky-top navbar-expand-lg">
-        <!-- burger toggler START -->
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+        <nav class="navbar navbar-expand-md">
+            <!-- burger toggler START -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
             <i class="fas fa-bars"></i>
         </button>
+        <a id="responsive-contact" class="btn gold d-md-none ml-2">
+            צור קשר
+        </a>
+        <a class="d-md-none ml-2">
+            <i class="fas fa-home"></i>
+        </a>
         <!-- burger toggler END -->
         <!-- nav links START -->
         <div id="collapse_target" class="collapse navbar-collapse">
             <ul class="navbar-nav">
-                <li class="nav-item"><a href="#" class="nav-link ml-3">לינק 1</a></li>
-                <li class="nav-item"><a href="#" class="nav-link ml-3">לינק 2</a></li>
-                <li class="nav-item"><a href="#" class="nav-link ml-3">לינק 3</a></li>
-                <li class="nav-item"><a href="#" class="nav-link ml-3">לינק 4</a></li>
-                <li class="nav-item"><a href="#" class="nav-link btn gold">לינק 5</a></li>
+                <li class="nav-item d-none d-md-block"><a href="#" class="nav-link ml-5">בית</a></li>
+                <li class="nav-item"><a href="#" class="nav-link ml-5">אודות</a></li>
+                <li class="nav-item"><a href="#" class="nav-link ml-5">שירותים</a></li>
+                <li class="nav-item d-none d-md-block"><a href="#" class="nav-link btn gold">צור קשר</a></li>
             </ul>
         </div>
         <!-- nav links END -->
     </nav>
-
+    
     <main>
+        <!-- benefits START -->
+        <section id="benefits">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div id="happy-costumers" class="col-12 col-md-6 col-lg-4 text-center mt-md-3">
+                        <i class="far fa-grin"></i>
+                        <h3>לקוחות מרוצים</h3>
+                        <p>טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום</p>
+                    </div>
+                    <div id="personal-service" class="col-12 col-md-6 col-lg-4 text-center mt-3">
+                        <i class="far fa-handshake"></i>
+                        <h3>שירות אישי</h3>
+                        <p>טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום</p>
+                    </div>
+                    <div id="professional" class="col-12 col-md-6 col-lg-4 text-center mt-3 mt-md-5">
+                        <i class="fas fa-award"></i>
+                        <h3>מקצועיות</h3>
+                        <p>טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- benefiets END -->
     </main>
 
     <footer>
-
+<div id="dummy"></div>
     </footer>
 
     <!-- JavaScript -->
