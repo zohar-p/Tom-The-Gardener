@@ -1,0 +1,32 @@
+/* COLORS
+white #FFFBEC
+light green #00A388
+dark green #105B63
+red #BD4932
+yellow #FFD34E
+black #3D3934 */
+
+@import 'normalize.css';
+
+#navbar {
+    background-color: #3d3934;
+}
+
+.nav-link, .fa-bars {
+    color: #fffbec;
+}
+
+.nav-link:hover, .fa-bars:hover {
+    color: #00A388;
+}
+
+.gold {
+    background-color: #ffd34e;
+    color: #3D3934;
+}
+
+.jumbotron img {
+    background-size: cover;
+    background-position: center;
+}
+
