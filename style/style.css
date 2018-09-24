@@ -150,6 +150,7 @@ h1 {
 .product-slider #thumbcarousel {
     margin: 0;
     padding: 0;
+    background-color: #000;
 }
 
 .product-slider #thumbcarousel .item {
@@ -160,13 +161,14 @@ h1 {
     width: 16.66%;
     margin: 0;
     display: inline-block;
-    /* vertical-align: middle; */
     cursor: pointer;
-    /* max-width: 98px; */
+    /* vertical-align: middle; */
+    opacity: 0.9;
+    transition: all 0.3s;
 }
 
 .product-slider #thumbcarousel .item .thumb:hover {
-
+    opacity: 1;
 }
 
 .product-slider .item img {
@@ -174,8 +176,17 @@ h1 {
     height: auto;
 }
 /* gallery END */
+/* ABOUT */
+#about img {
+    
+}
+/* /ABOUT */
 
-
+footer {
+    background-color: #3d3934;
+    color: #fffbec;
+    height: 200px;
+}
 
 
 /* MEDIA QUERIES */
