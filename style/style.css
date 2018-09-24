@@ -143,6 +143,43 @@ h1 {
 
 /* testimonials END */
 
+
+
+/* gallery START */
+
+.product-slider #thumbcarousel {
+    margin: 0;
+    padding: 0;
+}
+
+.product-slider #thumbcarousel .item {
+    text-align: center;
+}
+
+.product-slider #thumbcarousel .item .thumb {
+    width: 16.66%;
+    margin: 0;
+    display: inline-block;
+    /* vertical-align: middle; */
+    cursor: pointer;
+    /* max-width: 98px; */
+}
+
+.product-slider #thumbcarousel .item .thumb:hover {
+
+}
+
+.product-slider .item img {
+    width: 100%;
+    height: auto;
+}
+/* gallery END */
+
+
+
+
+/* MEDIA QUERIES */
+
 /* landscape size START */
 @media screen and (min-width: 576px) {
     h1 {
