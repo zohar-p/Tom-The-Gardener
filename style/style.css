@@ -122,13 +122,24 @@ h1 {
 #services .col-12 {
     background: url(../img/swimming-school.jpg) no-repeat center center;
     height: 40vw;
-    background-size: cover;
+    background-size: 100% auto;
     background-clip: content-box;
+    transition: all 0.3s;
+}
+
+#services .col-12:hover {
+    background-size: 110% auto;
+    text-decoration: none;
+}
+
+#services .col-12:active {
+    opacity: 0.8;
 }
 
 #services h3 {
     color: #fff;
     text-shadow: 0 0 6px black;
+    font-size: 3rem;
 }
 
 /* services END */
@@ -177,8 +188,7 @@ h1 {
 }
 /* gallery END */
 /* ABOUT */
-#about img {
-    
+#about p {
 }
 /* /ABOUT */
 
