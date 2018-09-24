@@ -188,7 +188,10 @@ h1 {
 }
 /* gallery END */
 /* ABOUT */
-#about p {
+#about .img-bg {
+    background: url(../img/swimming-school.jpg) no-repeat center center;
+    background-size: cover;
+    background-clip: content-box;
 }
 /* /ABOUT */
 
@@ -219,6 +222,10 @@ footer {
 @media screen and (min-width: 992px) {
     #services .col-12 {
         height: 20vw;
+    }
+
+    #about .img-bg {
+        background: none;
     }
 }
 /* desktop size END */
