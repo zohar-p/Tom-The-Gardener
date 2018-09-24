@@ -70,6 +70,10 @@ h1 {
 .gold:hover {
     color: #fffbec;
 }
+
+.gold:active {
+    opacity: 0.8;
+}
 /* navbar END */
 /* benefits START */
 
@@ -88,9 +92,30 @@ h1 {
 .fa-award, #professional h3 {
     color: #105b63;
 }
-
-
 /* benefits END */
+/* CTA START */
+#cta .col {
+    background-color: #bd4932;
+    border-radius: 10px;
+    transform: translateY(50%);
+    z-index: 100;
+}
+/* CTA END */
+/* services START */
+#services {
+    background-color: #fffbec;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#services .col-12 {
+    background: url(../img/swimming-school.jpg) no-repeat center center;
+    background-size: cover;
+    background-clip: content-box;
+    color: #fff;
+    text-shadow: 0 0 6px black;
+}
+/* services END */
 
 #dummy {
     min-height: 1000px;
