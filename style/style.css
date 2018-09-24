@@ -7,9 +7,19 @@ yellow #FFD34E
 black #3D3934 */
 
 /* global START */
+main {
+    font-family: 'assistant', sans-serif;
+}
+
+nav, h3 {
+    font-family: 'heebo', sans-serif;
+    color: #00a388;
+}
+
 p {
     opacity: 0.9;
 }
+
 /* global END */
 
 /* header START */
@@ -64,7 +74,8 @@ h1 {
 
 .gold {
     background-color: #ffd34e;
-    color: #3D3934;
+    color: #3D3934!important;
+    font-weight: bold;
 }
 
 .gold:hover {
@@ -81,15 +92,15 @@ h1 {
     font-size: 45px;
 }
 
-.fa-grin, #happy-costumers h3 {
+.fa-grin {
     color: #105b63;
 }
 
-.fa-handshake, #personal-service h3 {
+.fa-handshake {
     color: #105b63;
 }
 
-.fa-award, #professional h3 {
+.fa-award {
     color: #105b63;
 }
 /* benefits END */
@@ -110,16 +121,27 @@ h1 {
 
 #services .col-12 {
     background: url(../img/swimming-school.jpg) no-repeat center center;
+    height: 40vw;
     background-size: cover;
     background-clip: content-box;
+}
+
+#services h3 {
     color: #fff;
     text-shadow: 0 0 6px black;
 }
-/* services END */
 
-#dummy {
-    min-height: 1000px;
+/* services END */
+/* testimonials START */
+.fa-quote-right, .fa-quote-left {
+    color: #00a388;
 }
+
+#testimonials cite {
+    color: #105b63;
+}
+
+/* testimonials END */
 
 /* landscape size START */
 @media screen and (min-width: 576px) {
@@ -130,11 +152,15 @@ h1 {
 /* landscape size END */
 /* tablet size START */
 @media screen and (min-width: 768px) {
-    
+    #services .col-12 {
+        height: 25vw;
+    }
 }
 /* tablet size END */
 /* desktop size START */
 @media screen and (min-width: 992px) {
-    
+    #services .col-12 {
+        height: 20vw;
+    }
 }
 /* desktop size END */
