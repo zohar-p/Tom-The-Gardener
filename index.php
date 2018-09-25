@@ -34,16 +34,16 @@ include_once "header.php";
                             <div class="form-group d-none d-md-block ml-5">                                
                                 <label for="name">
                                     <span class="sr-only">מלא שם</span>
-                                    <input type="text" placeholder="שם" id="name" name="user_name">
+                                    <input type="text" placeholder="שם" id="name" name="name">
                                 </label>
                             </div>
                             <div class="form-group  d-none d-md-block">                                
                                 <label for="phone">
                                     <span class="sr-only">מלא מספר טלפון</span>
-                                    <input type="text" placeholder="מספר טלפון" id="name" name="user_name">
+                                    <input type="tel" placeholder="מספר טלפון" id="phone" name="phone">
                                 </label>
                             </div>
-                            <button class="btn gold mx-auto ml-md-0" type="submit">קבל הצעת מחיר!</button>
+                            <button class="btn gold mx-auto ml-md-0" type="submit" name="submit">קבל הצעת מחיר!</button>
                         </form>
                     </div>
                 </div>
