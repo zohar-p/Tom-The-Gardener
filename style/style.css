@@ -43,7 +43,7 @@ h1 {
 .navbar {
     background-color: #3d3934;
     position: sticky;
-    top:54px;
+    top: 52px;
     z-index: 1020;
     transform: translateY(-54px);
     /* margin-bottom: -100%; */
@@ -105,11 +105,26 @@ h1 {
 }
 /* benefits END */
 /* CTA START */
+#cta {
+    position: relative;
+}
+
+#anchor {
+    display: block;
+    position: relative;
+    bottom: 74px;
+    visibility: hidden;
+}
+
 #cta .col {
     background-color: #bd4932;
     border-radius: 10px;
     transform: translateY(50%);
     z-index: 100;
+}
+
+#cta .missing {
+    background-color: #ffd34edd;
 }
 /* CTA END */
 /* services START */

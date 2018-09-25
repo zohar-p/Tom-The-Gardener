@@ -1,6 +1,7 @@
 <?php
 include_once "header.php";
 ?>
+
     <main>
         <!-- benefits START -->
         <section id="benefits">
@@ -27,20 +28,41 @@ include_once "header.php";
         <!-- benefiets END -->
         <!-- CTA START -->
         <section id="cta">
+            <div id="anchor"></div>
             <div class="container">
                 <div class="row">
                     <div class="col w-100">
-                        <form class="form-inline p-2" action="contact.php" method="POST">
+                        <form class="form-inline p-2" action="includes/contact.inc.php" method="POST">
                             <div class="form-group d-none d-md-block ml-5">                                
                                 <label for="name">
                                     <span class="sr-only">מלא שם</span>
-                                    <input type="text" placeholder="שם" id="name" name="name">
+                                    <?php
+                                    if(isset($_GET['name'])) {
+                                        $name = $_GET['name'];
+                                        if($name == "empty") {
+                                            echo '<input class="rounded missing" type="text" placeholder="יש למלא שם" id="name" name="name">';
+                                        } else {
+                                            echo '<input class="rounded" type="text" value="'.$name.'" id="name" name="name">';
+                                        }
+                                    } else {
+                                        echo '<input class="rounded" type="text" placeholder="שם" id="name" name="name">';
+                                        }?>
                                 </label>
                             </div>
                             <div class="form-group  d-none d-md-block">                                
                                 <label for="phone">
                                     <span class="sr-only">מלא מספר טלפון</span>
-                                    <input type="tel" placeholder="מספר טלפון" id="phone" name="phone">
+                                    <?php
+                                    if(isset($_GET['phone'])) {
+                                        $phone = $_GET['phone'];
+                                        if($phone == "empty") {
+                                            echo '<input class="rounded missing" type="tel" placeholder="יש למלא טלפון" id="phone" name="phone">';
+                                        } else {
+                                            echo '<input class="rounded" type="tel" value="'.$phone.'" id="phone" name="phone">';
+                                        }
+                                    } else {
+                                        echo '<input class="rounded" type="tel" placeholder="טלפון" id="phone" name="phone">';
+                                        }?>
                                 </label>
                             </div>
                             <button class="btn gold mx-auto ml-md-0" type="submit" name="submit">קבל הצעת מחיר!</button>
