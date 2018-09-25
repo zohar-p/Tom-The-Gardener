@@ -193,6 +193,12 @@ h1 {
     background-size: cover;
     background-clip: content-box;
 }
+
+#about .img-bg h3,
+#about .img-bg p {
+    color: #fff;
+    text-shadow: 0 0 8px black;
+}
 /* /ABOUT */
 
 footer {
@@ -226,6 +232,16 @@ footer {
 
     #about .img-bg {
         background: none;
+    }
+
+    #about .img-bg h3 {
+    text-shadow: none;
+    color: #00a388;
+    }
+
+    #about .img-bg p {
+    text-shadow: none;
+    color: #212529;
     }
 }
 /* desktop size END */
