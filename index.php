@@ -42,7 +42,7 @@ include_once "header.php";
                                         if($name == "empty") {
                                             echo '<input class="rounded missing" type="text" placeholder="יש למלא שם" id="name" name="name">';
                                         } else {
-                                            echo '<input class="rounded" type="text" value="'.$name.'" id="name" name="name">';
+                                            echo '<input class="rounded" type="text" placeholder="יש למלא שם" value="'.$name.'" id="name" name="name">';
                                         }
                                     } else {
                                         echo '<input class="rounded" type="text" placeholder="שם" id="name" name="name">';
@@ -58,7 +58,7 @@ include_once "header.php";
                                         if($phone == "empty") {
                                             echo '<input class="rounded missing" type="tel" placeholder="יש למלא טלפון" id="phone" name="phone">';
                                         } else {
-                                            echo '<input class="rounded" type="tel" value="'.$phone.'" id="phone" name="phone">';
+                                            echo '<input class="rounded" type="tel" placeholder="יש למלא טלפון" value="'.$phone.'" id="phone" name="phone">';
                                         }
                                     } else {
                                         echo '<input class="rounded" type="tel" placeholder="טלפון" id="phone" name="phone">';
