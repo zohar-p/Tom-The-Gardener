@@ -33,39 +33,40 @@ include_once "header.php";
                 <div class="row">
                     <div class="col w-100">
                         <form class="form-inline p-2" action="includes/contact.inc.php" method="POST">
-                            <div class="form-group d-none d-md-block ml-5">                                
+                            <div class="form-group mx-auto ml-md-5 mr-md-0 mb-2 mb-md-0">                                
                                 <label for="name">
                                     <span class="sr-only">מלא שם</span>
                                     <?php
                                     if(isset($_GET['name'])) {
                                         $name = $_GET['name'];
                                         if($name == "empty") {
-                                            echo '<input class="rounded missing" type="text" placeholder="יש למלא שם" id="name" name="name">';
+                                            echo '<input class="form-control text-center text-md-right rounded missing" type="text" placeholder="יש למלא שם" id="name" name="name">';
                                         } else {
-                                            echo '<input class="rounded" type="text" placeholder="יש למלא שם" value="'.$name.'" id="name" name="name">';
+                                            echo '<input class="form-control text-center text-md-right rounded" type="text" placeholder="יש למלא שם" value="'.$name.'" id="name" name="name">';
                                         }
                                     } else {
-                                        echo '<input class="rounded" type="text" placeholder="שם" id="name" name="name">';
+                                        echo '<input class="form-control text-center text-md-right rounded" type="text" placeholder="שם" id="name" name="name">';
                                         }?>
                                 </label>
                             </div>
-                            <div class="form-group  d-none d-md-block">                                
+                            <div class="form-group mx-auto ml-md-0 mr-md-0 mb-2 mb-md-0">                                
                                 <label for="phone">
                                     <span class="sr-only">מלא מספר טלפון</span>
                                     <?php
                                     if(isset($_GET['phone'])) {
                                         $phone = $_GET['phone'];
                                         if($phone == "empty") {
-                                            echo '<input class="rounded missing" type="tel" placeholder="יש למלא טלפון" id="phone" name="phone">';
+                                            echo '<input class="form-control text-center text-md-right rounded missing" type="tel" placeholder="יש למלא טלפון" id="phone" name="phone">';
                                         } else {
-                                            echo '<input class="rounded" type="tel" placeholder="יש למלא טלפון" value="'.$phone.'" id="phone" name="phone">';
+                                            echo '<input class="form-control text-center text-md-right rounded" type="tel" placeholder="יש למלא טלפון" value="'.$phone.'" id="phone" name="phone">';
                                         }
                                     } else {
-                                        echo '<input class="rounded" type="tel" placeholder="טלפון" id="phone" name="phone">';
+                                        echo '<input class="form-control text-center text-md-right rounded " type="tel" placeholder="טלפון" id="phone" name="phone">';
                                         }?>
                                 </label>
                             </div>
-                            <button class="btn gold mx-auto ml-md-0" type="submit" name="submit">קבל הצעת מחיר!</button>
+                            <div class="w-100 d-md-none"></div>
+                            <button class="btn gold ml-auto mr-auto ml-md-0" type="submit" name="submit">קבל הצעת מחיר!</button>
                         </form>
                     </div>
                 </div>
