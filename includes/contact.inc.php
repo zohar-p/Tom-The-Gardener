@@ -49,7 +49,7 @@ if(!isset($_POST['submit'])) {
         if(mail($to, $subject, $msg, $headers)){
             header('Location: ../index.php?contact=success#anchor');
         } else {
-            header('Location: ../index.php?contact=fail');
+            header('Location: ../index.php?contact=fail#anchor');
         };
     }
   

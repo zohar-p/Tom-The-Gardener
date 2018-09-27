@@ -29,6 +29,21 @@ include_once "header.php";
         <!-- CTA START -->
         <section id="cta">
             <div id="anchor"></div>
+            <?php
+            if (isset($_GET['contact'])) {
+                $contact = $_GET['contact'];
+                if($contact == "fail") { ?>
+                    <div class="modal-body border rounded">
+                        <p class="text-center mb-0">משהו השתבש :/ אנא נסה שוב או לחץ על "צור קשר" בתפריט</p>
+                    </div>
+                    <?php
+                } elseif($contact == "success") { ?>
+                    <div class="modal-body border rounded">
+                        <p class="text-center mb-0">הפרטים נמסרו בהצלחה, ניצור איתך קשר בקרוב :)</p>
+                    </div>
+                    <?php
+                }
+            } ?>
             <div class="container">
                 <div class="row">
                     <div class="col w-100">
