@@ -26,7 +26,7 @@ if(!isset($_POST['submit'])) {
     $getPhone = "phone=".checkPhone($enteredPhone);
     
     if($getName == "name=empty" || $getPhone == "phone=empty"){
-        header("Location: ../index.php?$getName&$getPhone");
+        header("Location: ../index.php?$getName&$getPhone#anchor");
         exit();
     } else {
         $to = 'pfzohar@gmail.com';

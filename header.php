@@ -39,7 +39,7 @@ include_once "includes/functions.inc.php";
         <div id="collapse_target" class="collapse navbar-collapse">
             <ul class="navbar-nav">
                 <li class="nav-item d-none d-md-block"><a href="<?php echo $url;?>" class="nav-link ml-5">בית</a></li>
-                <li class="nav-item"><a href="#" class="nav-link ml-5">אודות</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link ml-5">אודות</a></li>
                 <li class="nav-item"><a href="#" class="nav-link ml-5">שירותים</a></li>
                 <li class="nav-item d-none d-md-block"><a href="#" class="nav-link btn gold">צור קשר</a></li>
             </ul>
