@@ -31,7 +31,7 @@ include_once "includes/functions.inc.php";
         <a id="responsive-contact" class="btn gold d-md-none ml-2">
             צור קשר
         </a>
-        <a class="d-md-none ml-2">
+        <a href="<?php echo $url ;?>" class="d-md-none ml-2">
             <i class="fas fa-home"></i>
         </a>
         <!-- burger toggler END -->
