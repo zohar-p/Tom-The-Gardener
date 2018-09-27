@@ -240,13 +240,21 @@ h1 {
     text-shadow: 0 0 8px black;
 }
 /* /ABOUT */
-
+/* FOOTER */
 footer {
     background-color: #3d3934;
     color: #fffbec;
-    height: 200px;
 }
 
+footer ul {
+    list-style-type: none;
+}
+
+footer a, footer a:hover, footer hr {
+    color: #fffbec;
+}
+
+/* /FOOTER */
 
 /* MEDIA QUERIES */
 
