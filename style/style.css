@@ -250,8 +250,17 @@ footer ul {
     list-style-type: none;
 }
 
-footer a, footer a:hover, footer hr {
+footer a {
     color: #fffbec;
+}
+
+footer a:hover, {
+    color: #ffd34e;
+    text-decoration: none;
+}
+
+footer .icons {
+    height: 100%
 }
 
 /* /FOOTER */
