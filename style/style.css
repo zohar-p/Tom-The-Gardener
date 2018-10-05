@@ -7,6 +7,10 @@ yellow #FFD34E
 black #3D3934 */
 
 /* global START */
+body {
+    /* scroll-behavior: smooth; */
+}
+
 main {
     font-family: 'assistant', sans-serif;
 }
