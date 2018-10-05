@@ -93,16 +93,16 @@ include_once "header.php";
             <div class="container-fluid pt-5 pt-sm-0">
                 <div class="row">
                     <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
-                        <h3 class="text-center">אחזקה שוטפת</h3>
-                    </a>
-                    <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
-                        <h3 class="text-center">מערכות השקייה</h3>
-                    </a>
-                    <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
                         <h3 class="text-center">הקמה ופיתוח</h3>
                     </a>
                     <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
+                        <h3 class="text-center">אחזקה שוטפת</h3>
+                    </a>
+                    <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
                         <h3 class="text-center">שיקום</h3>
+                    </a>
+                    <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
+                        <h3 class="text-center">מערכות השקייה</h3>
                     </a>
                     <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
                         <h3 class="text-center">שבילים</h3>
