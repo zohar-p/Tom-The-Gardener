@@ -47,7 +47,7 @@ include_once "header.php";
             <div class="container">
                 <div class="row">
                     <div class="col w-100">
-                        <form class="form-inline p-2" action="includes/contact.inc.php" method="POST">
+                        <form class="form-inline p-2" action="includes/form-handler.inc.php" method="POST">
                             <div class="form-group mx-auto ml-md-5 mr-md-0 mb-2 mb-md-0">                                
                                 <label for="name">
                                     <span class="sr-only">מלא שם</span>
@@ -90,40 +90,34 @@ include_once "header.php";
         <!-- CTA END -->
         <!-- services START -->
         <section id="services">
-            <div class="container-fluid">
+            <div class="container-fluid pt-5 pt-sm-0">
                 <div class="row">
                     <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
-                        <h3 class="text-center">שירות</h3>
+                        <h3 class="text-center">אחזקה שוטפת</h3>
                     </a>
                     <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
-                        <h3 class="text-center">שירות</h3>
+                        <h3 class="text-center">מערכות השקייה</h3>
                     </a>
                     <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
-                        <h3 class="text-center">שירות</h3>
+                        <h3 class="text-center">הקמה ופיתוח</h3>
                     </a>
                     <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
-                        <h3 class="text-center">שירות</h3>
+                        <h3 class="text-center">שיקום</h3>
                     </a>
                     <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
-                        <h3 class="text-center">שירות</h3>
+                        <h3 class="text-center">שבילים</h3>
                     </a>
                     <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
-                        <h3 class="text-center">שירות</h3>
-                    </a>
-                    <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
-                        <h3 class="text-center">שירות</h3>
-                    </a>
-                    <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
-                        <h3 class="text-center">שירות</h3>
+                        <h3 class="text-center">חיפוי קרקע</h3>
                     </a>
                 </div>
             </div>
         </section>
         <!-- services END -->
-        <div class="container-fluid">
-            <div class="row">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
                 <!-- gallery START -->
-                <section id="gallery" class="col-xl-8">
+                <section id="gallery" class="col-xl-8 mb-3">
                     <div class="product-slider">
                         <div id="carousel" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
@@ -197,7 +191,7 @@ include_once "header.php";
                     </section>
                     <!-- gallery END -->
                     <!-- testimonials START -->
-                    <section id="testimonials" class="col-xl-4">
+                    <section id="testimonials" class="col-xl-4 px-3">
                         <blockquote id="testimmonial-1" class="blockquote">
                             <i class="fas fa-quote-right"></i>
                             <p class="text-center">
@@ -230,7 +224,7 @@ include_once "header.php";
                     <div class="col-6 d-none d-lg-block">
                         <img class="d-block w-100" src="img/swimming-school.jpg" alt="">
                     </div>
-                    <div class="col-lg-6 text-center img-bg">
+                    <div class="col-lg-6 text-center align-self-center mb-3 mb-lg-0 img-bg">
                         <h3>אודות</h3>
                         <p class="px-2">המון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלו</p>
                     </div>

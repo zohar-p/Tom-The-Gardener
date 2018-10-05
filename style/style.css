@@ -254,7 +254,7 @@ footer a {
     color: #fffbec;
 }
 
-footer a:hover, {
+footer a:hover {
     color: #ffd34e;
     text-decoration: none;
 }
