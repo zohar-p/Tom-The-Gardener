@@ -29,7 +29,7 @@ header {
 }
 
 .jumbotron {
-    background: url(../img/swimming-school.jpg) no-repeat center center fixed;
+    background: url(../img/jumbotron/purple-flowers.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -52,6 +52,7 @@ h1 {
     transform: translateX(50%);
     bottom: 70px;
 }
+
 /* header END */
 /* navbar START */
 .navbar {
@@ -177,11 +178,36 @@ h1 {
 }
 
 #services .col-12 {
-    background: url(../img/swimming-school.jpg) no-repeat center center;
     height: 40vw;
     background-size: 100% auto;
     background-clip: content-box;
     transition: all 0.3s;
+}
+
+#home-create {
+    background: url(../img/yard-under-work.jpg) no-repeat center center;
+    /* work */
+    /* background-size: cover; */
+}
+
+#home-maintain {
+    background: url(../img/mowing-lawn.jpg) no-repeat center center;
+}
+
+#home-fix {
+    background: url(../img/towing-branches.jpg) no-repeat center center;
+}
+
+#home-irrigation {
+    background: url(../img/pretty-yard.jpg) no-repeat center center;
+}
+
+#home-walkways {
+    background: url(../img/white-flowers-green-walkway-bg.jpg) no-repeat center center;
+}
+
+#home-ground {
+    background: url(../img/orange-flowers-rubbel-bg.jpg) no-repeat center center;
 }
 
 #services .col-12:hover {

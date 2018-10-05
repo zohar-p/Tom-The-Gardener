@@ -92,22 +92,22 @@ include_once "header.php";
         <section id="services">
             <div class="container-fluid pt-5 pt-sm-0">
                 <div class="row">
-                    <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
+                    <a id="home-create" class="col-12 col-md-6 col-xl-4 mt-4" href="#">
                         <h3 class="text-center">הקמה ופיתוח</h3>
                     </a>
-                    <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
+                    <a id="home-maintain" class="col-12 col-md-6 col-xl-4 mt-4" href="#">
                         <h3 class="text-center">אחזקה שוטפת</h3>
                     </a>
-                    <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
+                    <a id="home-fix" class="col-12 col-md-6 col-xl-4 mt-4" href="#">
                         <h3 class="text-center">שיקום</h3>
                     </a>
-                    <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
+                    <a id="home-irrigation" class="col-12 col-md-6 col-xl-4 mt-4" href="#">
                         <h3 class="text-center">מערכות השקייה</h3>
                     </a>
-                    <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
+                    <a id="home-walkways" class="col-12 col-md-6 col-xl-4 mt-4" href="#">
                         <h3 class="text-center">שבילים</h3>
                     </a>
-                    <a class="col-12 col-md-6 col-xl-4 mt-4" href="#">
+                    <a id="home-ground" class="col-12 col-md-6 col-xl-4 mt-4" href="#">
                         <h3 class="text-center">חיפוי קרקע</h3>
                     </a>
                 </div>

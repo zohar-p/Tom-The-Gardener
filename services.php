@@ -1,9 +1,9 @@
 <?php include_once "header.php" ?>
-<section id="maintenance">
+<section id="services-maintenance">
 
 </section>
 <!-- IRRIGATION -->
-<section id="irrigation">
+<section id="services-irrigation">
     <h3 class="text-center">מערכות השקייה</h3>
     <p>
     התקנת מערכת השקייה ממוחשבת מעוגנת בתוך ארון מגן, אפשרות להוספת מערכת לדישון אורגני באופן אוטומטי.
@@ -11,18 +11,18 @@
 </section>
 <!-- /IRRIGATION -->
 
-<section id="create">
+<section id="services-create">
 
 </section>
 
-<section id="fix">
+<section id="services-fix">
 
 </section>
 
-<section id="walkways">
+<section id="services-walkways">
 
 </section>
 
-<section id="ground"></section>
+<section id="services-ground"></section>
 
 <?php include_once "footer.php" ?>
