@@ -122,48 +122,48 @@ include_once "header.php";
                         <div id="carousel" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="http://placehold.it/1600x700?text=Product+01" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="ספסל על רקע בית">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="http://placehold.it/1600x700?text=Product+02" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="http://placehold.it/1600x700?text=Product+03" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="http://placehold.it/1600x700?text=Product+04" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="http://placehold.it/1600x700?text=Product+05" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="http://placehold.it/1600x700?text=Product+06" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="http://placehold.it/1600x700?text=Product+07" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="http://placehold.it/1600x700?text=Product+08" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="http://placehold.it/1600x700?text=Product+09" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="http://placehold.it/1600x700?text=Product+10" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="http://placehold.it/1600x700?text=Product+11" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="http://placehold.it/1600x700?text=Product+12" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <i class="fas fa-angle-left fa-5x controls" aria-hidden="true"></i>
                                 <span class="sr-only">הקודם</span>
                             </a>
                                 <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <i class="fas fa-angle-right fa-5x controls" aria-hidden="true"></i>
                                 <span class="sr-only">הבא</span>
                             </a>
                         </div>
@@ -171,18 +171,18 @@ include_once "header.php";
                         <div id="thumbcarousel" class="carousel slide d-none d-md-block" data-interval="false" dir="ltr">
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+01"></div
-                                    ><div data-target="#carousel" data-slide-to="1" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+02"></div
-                                    ><div data-target="#carousel" data-slide-to="2" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+03"></div
-                                    ><div data-target="#carousel" data-slide-to="3" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+04"></div
-                                    ><div data-target="#carousel" data-slide-to="4" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+05"></div
-                                    ><div data-target="#carousel" data-slide-to="5" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+06"></div
-                                    ><div data-target="#carousel" data-slide-to="6" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+07"></div
-                                    ><div data-target="#carousel" data-slide-to="7" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+08"></div
-                                    ><div data-target="#carousel" data-slide-to="8" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+08"></div
-                                    ><div data-target="#carousel" data-slide-to="9" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+10"></div
-                                    ><div data-target="#carousel" data-slide-to="10" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+11"></div
-                                    ><div data-target="#carousel" data-slide-to="11" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+12"></div>
+                                    <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="img/bench-house-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="1" class="thumb"><img src="img/bench-house-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img/bench-house-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="3" class="thumb"><img src="img/bench-house-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="4" class="thumb"><img src="img/bench-house-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="5" class="thumb"><img src="img/bench-house-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="6" class="thumb"><img src="img/bench-house-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="7" class="thumb"><img src="img/bench-house-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="8" class="thumb"><img src="img/bench-house-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="9" class="thumb"><img src="img/bench-house-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="10" class="thumb"><img src="img/bench-house-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="11" class="thumb"><img src="img/bench-house-bg.jpg"></div>
                                 </div>
                             </div>
                         </div>
@@ -218,15 +218,15 @@ include_once "header.php";
                 </div>
             </div>
         <!-- ABOUT -->
-        <section id="about">
+        <section id="about" class="mb-3">
             <div class="container-fluid">
                 <div class="row no-gutters">
                     <div class="col-6 d-none d-lg-block">
-                        <img class="d-block w-100" src="img/swimming-school.jpg" alt="">
+                        <img class="d-block w-100" src="img/trimmer-on-lawn.jpg" alt="">
                     </div>
                     <div class="col-lg-6 text-center align-self-center mb-3 mb-lg-0 img-bg">
-                        <h3>אודות</h3>
-                        <p class="px-2">המון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלו</p>
+                        <h3 class="mt-3 mt-lg-0">אודות</h3>
+                        <p class="px-2 px-sm-4 px-md-5">המון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלו</p>
                     </div>
                 </div>
             </div>

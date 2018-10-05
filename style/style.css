@@ -29,7 +29,7 @@ header {
 }
 
 .jumbotron {
-    background: url(../img/jumbotron/purple-flowers.jpg) no-repeat center center fixed;
+    background: url(../img/purple-flowers.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -181,13 +181,11 @@ h1 {
     height: 40vw;
     background-size: 100% auto;
     background-clip: content-box;
-    transition: all 0.3s;
+    transition: background-size 0.3s;
 }
 
 #home-create {
     background: url(../img/yard-under-work.jpg) no-repeat center center;
-    /* work */
-    /* background-size: cover; */
 }
 
 #home-maintain {
@@ -203,7 +201,7 @@ h1 {
 }
 
 #home-walkways {
-    background: url(../img/white-flowers-green-walkway-bg.jpg) no-repeat center center;
+    background: url(../img/white-flowers-green-walkway-bg.jpg) no-repeat bottom center;
 }
 
 #home-ground {
@@ -266,18 +264,24 @@ h1 {
     width: 100%;
     height: auto;
 }
+
+.controls {
+    text-shadow: 0 0 4px black;
+}
+
 /* gallery END */
 /* ABOUT */
 #about .img-bg {
-    background: url(../img/swimming-school.jpg) no-repeat center center;
+    background: url(../img/trimmer-on-lawn.jpg) no-repeat center center;
     background-size: cover;
     background-clip: content-box;
+    min-height: 320px;
 }
 
 #about .img-bg h3,
 #about .img-bg p {
     color: #fff;
-    text-shadow: 0 0 8px black;
+    text-shadow: 0 0 4px black;
 }
 /* /ABOUT */
 /* FOOTER */
