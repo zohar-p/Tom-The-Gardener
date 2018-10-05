@@ -24,10 +24,14 @@ p {
 
 /* header START */
 
+header {
+    position: relative;
+}
+
 .jumbotron {
     background: url(../img/swimming-school.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 100vh
+    height: 100vh;
 }
 
 h1 {
@@ -37,6 +41,15 @@ h1 {
     color: #fff;
     opacity: 0.8;
     text-shadow: 0 0 8px black;
+}
+
+#down-arrow {
+    color: #fffbec;
+    text-shadow: 0 0 8px black;
+    opacity: 0.8;
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
 }
 /* header END */
 /* navbar START */

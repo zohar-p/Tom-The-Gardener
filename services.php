@@ -4,9 +4,12 @@
 </section>
 <!-- IRRIGATION -->
 <section id="irrigation">
-<!-- /IRRIGATION -->
-
+    <h3 class="text-center">מערכות השקייה</h3>
+    <p>
+    התקנת מערכת השקייה ממוחשבת מעוגנת בתוך ארון מגן, אפשרות להוספת מערכת לדישון אורגני באופן אוטומטי.
+    </p>
 </section>
+<!-- /IRRIGATION -->
 
 <section id="create">
 
