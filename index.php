@@ -7,7 +7,7 @@ include_once "header.php";
         <section id="benefits">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div id="happy-costumers" class="col-12 col-md-6 col-xl-4 text-center mt-md-3 benefits-reveal">
+                    <div id="happy-costumers" class="col-12 col-md-6 col-xl-4 text-center mt-md-3 reveal">
                         <i class="far fa-grin"></i>
                         <h3>לקוחות מרוצים</h3>
                         <p>טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום</p>
