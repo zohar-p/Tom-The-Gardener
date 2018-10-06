@@ -181,7 +181,7 @@ h1 {
     padding-bottom: 2rem;
 }
 
-#services .col-12 {
+#services .service-item {
     height: 40vw;
     background-size: 100% auto;
     background-clip: content-box;
@@ -243,7 +243,6 @@ h1 {
 .product-slider #thumbcarousel {
     margin: 0;
     padding: 0;
-    background-color: #000;
 }
 
 .product-slider #thumbcarousel .item {
@@ -255,8 +254,7 @@ h1 {
     margin: 0;
     display: inline-block;
     cursor: pointer;
-    /* vertical-align: middle; */
-    opacity: 0.9;
+    opacity: 0.8;
     transition: all 0.3s;
 }
 
