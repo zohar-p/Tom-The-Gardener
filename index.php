@@ -4,7 +4,7 @@ include_once "header.php";
 
     <main>
         <!-- benefits START -->
-        <section id="benefits">
+        <section id="benefits" class="mt-3">
             <div class="container">
                 <div class="row justify-content-center">
                     <div id="happy-costumers" class="col-12 col-md-6 col-xl-4 text-center mt-md-3 reveal">
@@ -34,7 +34,7 @@ include_once "header.php";
                 $contact = $_GET['contact'];
                 if($contact == "fail") { ?>
                     <div class="modal-body border rounded">
-                        <p class="text-center mb-0">משהו השתבש :/ אנא נסה שוב או לחץ על "צור קשר" בתפריט</p>
+                        <p class="text-center mb-0">משהו השתבש :/ אנא נסה שוב</p>
                     </div>
                     <?php
                 } elseif($contact == "success") { ?>
@@ -81,7 +81,7 @@ include_once "header.php";
                                 </label>
                             </div>
                             <div class="w-100 d-md-none"></div>
-                            <button class="btn gold ml-auto mr-auto ml-md-0" type="submit" name="submit">קבל הצעת מחיר!</button>
+                            <button class="btn gold px-5 ml-auto mr-auto ml-md-0" type="submit" name="submit">צור קשר</button>
                         </form>
                     </div>
                 </div>
@@ -122,40 +122,40 @@ include_once "header.php";
                         <div id="carousel" class="carousel slide reveal" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="ספסל על רקע בית">
+                                    <img class="d-block w-100" src="img/house-through-vegetation.jpg">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
+                                    <img class="d-block w-100" src="img/bench-house-bg.jpg">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
+                                    <img class="d-block w-100" src="img/purple-pink-yellow.jpg">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
+                                    <img class="d-block w-100" src="img/roses.jpg">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
+                                    <img class="d-block w-100" src="img/white-flowers-lawn-bg.jpg">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
+                                    <img class="d-block w-100" src="img/vase-right.jpg">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
+                                    <img class="d-block w-100" src="img/terasot.jpg">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
+                                    <img class="d-block w-100" src="img/lawn-house-bg.jpg">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
+                                    <img class="d-block w-100" src="img/green-walkway.jpg">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
+                                    <img class="d-block w-100" src="img/flowers-mowing-bg.jpg">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
+                                    <img class="d-block w-100" src="img/walkway-w-plants.jpg">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bench-house-bg.jpg" alt="">
+                                    <img class="d-block w-100" src="img/chair-through-plant.jpg">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -171,18 +171,18 @@ include_once "header.php";
                         <div id="thumbcarousel" class="carousel slide d-none d-md-block" data-interval="false" dir="ltr">
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <div data-target="#carousel" data-slide-to="0" class="thumb thumb-reveal"><img src="img/bench-house-bg.jpg"></div
+                                    <div data-target="#carousel" data-slide-to="0" class="thumb thumb-reveal"><img src="img/house-through-vegetation.jpg"></div
                                     ><div data-target="#carousel" data-slide-to="1" class="thumb thumb-reveal"><img src="img/bench-house-bg.jpg"></div
-                                    ><div data-target="#carousel" data-slide-to="2" class="thumb thumb-reveal"><img src="img/bench-house-bg.jpg"></div
-                                    ><div data-target="#carousel" data-slide-to="3" class="thumb thumb-reveal"><img src="img/bench-house-bg.jpg"></div
-                                    ><div data-target="#carousel" data-slide-to="4" class="thumb thumb-reveal"><img src="img/bench-house-bg.jpg"></div
-                                    ><div data-target="#carousel" data-slide-to="5" class="thumb thumb-reveal"><img src="img/bench-house-bg.jpg"></div
-                                    ><div data-target="#carousel" data-slide-to="6" class="thumb thumb-reveal"><img src="img/bench-house-bg.jpg"></div
-                                    ><div data-target="#carousel" data-slide-to="7" class="thumb thumb-reveal"><img src="img/bench-house-bg.jpg"></div
-                                    ><div data-target="#carousel" data-slide-to="8" class="thumb thumb-reveal"><img src="img/bench-house-bg.jpg"></div
-                                    ><div data-target="#carousel" data-slide-to="9" class="thumb thumb-reveal"><img src="img/bench-house-bg.jpg"></div
-                                    ><div data-target="#carousel" data-slide-to="10" class="thumb thumb-reveal"><img src="img/bench-house-bg.jpg"></div
-                                    ><div data-target="#carousel" data-slide-to="11" class="thumb thumb-reveal"><img src="img/bench-house-bg.jpg"></div>
+                                    ><div data-target="#carousel" data-slide-to="2" class="thumb thumb-reveal"><img src="img/purple-pink-yellow.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="3" class="thumb thumb-reveal"><img src="img/roses.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="4" class="thumb thumb-reveal"><img src="img/white-flowers-lawn-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="5" class="thumb thumb-reveal"><img src="img/vase-right.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="6" class="thumb thumb-reveal"><img src="img/terasot.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="7" class="thumb thumb-reveal"><img src="img/lawn-house-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="8" class="thumb thumb-reveal"><img src="img/green-walkway.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="9" class="thumb thumb-reveal"><img src="img/flowers-mowing-bg.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="10" class="thumb thumb-reveal"><img src="img/walkway-w-plants.jpg"></div
+                                    ><div data-target="#carousel" data-slide-to="11" class="thumb thumb-reveal"><img src="img/chair-through-plant.jpg"></div>
                                 </div>
                             </div>
                         </div>

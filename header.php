@@ -31,33 +31,10 @@ include_once "includes/functions.inc.php";
       <!-- jumbotron START -->
         <div class="jumbotron jumbotron-fluid my-0 p-0 d-flex justify-content-center align-items-center">
             <h1 class="text-center m-0">תום פפר<div class="w-100 d-lg-none"></div> עבודות גינון</h1>
-            <a id="down-arrow" href="#scroll-target"><i class="fas fa-angle-double-down fa-4x"></i></a>
+            <a id="down-arrow" href="#benefits"><i class="fas fa-angle-double-down fa-4x"></i></a>
         </div>
         <!-- jumbotron END -->
     </header>
 
-        <nav class="navbar navbar-expand-md">
-            <!-- burger toggler START -->
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-            <i class="fas fa-bars"></i>
-        </button>
-        <a id="responsive-contact" class="btn gold d-md-none ml-2">
-            צור קשר
-        </a>
-        <a href="<?php echo $homeUrl ;?>" class="d-md-none ml-2">
-            <i class="fas fa-home"></i>
-        </a>
-        <!-- burger toggler END -->
-        <!-- nav links START -->
-        <div id="collapse_target" class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item d-none d-md-block"><a href="<?php echo $homeUrl;?>" class="nav-link ml-5">בית</a></li>
-                <li class="nav-item"><a href="#" class="nav-link ml-5">אודות</a></li>
-                <li class="nav-item"><a href="services.php" class="nav-link ml-5">שירותים</a></li>
-                <li class="nav-item d-none d-md-block"><a href="#" class="nav-link btn gold">צור קשר</a></li>
-            </ul>
-        </div>
-        <div id="scroll-target"></div>
-        <!-- nav links END -->
-    </nav>
+
     
