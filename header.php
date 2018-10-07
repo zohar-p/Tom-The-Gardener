@@ -35,6 +35,3 @@ include_once "includes/functions.inc.php";
         </div>
         <!-- jumbotron END -->
     </header>
-
-
-    

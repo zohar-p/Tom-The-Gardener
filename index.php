@@ -92,24 +92,48 @@ include_once "header.php";
         <section id="services">
             <div class="container-fluid pt-5 pt-sm-0">
                 <div class="row">
-                    <a id="home-create" class="col-12 col-md-6 col-xl-4 mt-4 service-item services-reveal" href="#">
-                        <h3 class="text-center">הקמה ופיתוח</h3>
-                    </a>
-                    <a id="home-maintain" class="col-12 col-md-6 col-xl-4 mt-4 service-item services-reveal" href="#">
-                        <h3 class="text-center">אחזקה שוטפת</h3>
-                    </a>
-                    <a id="home-fix" class="col-12 col-md-6 col-xl-4 mt-4 service-item services-reveal" href="#">
-                        <h3 class="text-center">שיקום</h3>
-                    </a>
-                    <a id="home-irrigation" class="col-12 col-md-6 col-xl-4 mt-4 service-item services-reveal" href="#">
-                        <h3 class="text-center">מערכות השקייה</h3>
-                    </a>
-                    <a id="home-walkways" class="col-12 col-md-6 col-xl-4 mt-4 service-item services-reveal" href="#">
-                        <h3 class="text-center">שבילים</h3>
-                    </a>
-                    <a id="home-ground" class="col-12 col-md-6 col-xl-4 mt-4 service-item services-reveal" href="#">
-                        <h3 class="text-center">חיפוי קרקע</h3>
-                    </a>
+                    <div id="home-create" class="col-12 col-md-6 col-xl-4 my-2 service-item services-reveal">
+                        <div class="overlay">
+                            <div class="underline w-50 mx-auto"></div>
+                            <h3 class="w-100 text-center">הקמה ופיתוח</h3>
+                            <p class="mt-3 text-center lead">תכנון וביצוע הקמת גינות</p>
+                        </div>
+                    </div>
+                    <div id="home-maintain" class="col-12 col-md-6 col-xl-4 my-2 service-item services-reveal">
+                        <div class="overlay">
+                            <div class="underline w-50 mx-auto"></div>
+                            <h3 class="w-100 text-center">אחזקה שוטפת</h3>
+                            <p class="mt-3 text-center lead">טיפול קבוע בהתאם לצרכי הגינה ודרישות הלקוח</p>
+                        </div>
+                    </div>
+                    <div id="home-fix" class="col-12 col-md-6 col-xl-4 my-2 service-item services-reveal">
+                        <div class="overlay">
+                            <div class="underline w-50 mx-auto"></div>
+                            <h3 class="w-100 text-center">שיקום</h3>
+                            <p class="mt-3 text-center lead">גיזומים ושתילות כנדרש ורענון הגינה הקיימת</p>
+                        </div>
+                    </div>
+                    <div id="home-irrigation" class="col-12 col-md-6 col-xl-4 my-2 service-item services-reveal">
+                        <div class="overlay">
+                            <div class="underline w-50 mx-auto"></div>
+                            <h3 class="w-100 text-center">מערכות השקייה</h3>
+                            <p class="mt-3 text-center lead">התקנת מערכת השקייה ממוחשבת מעוגנת בתוך ארון מגן, אפשרות להוספת מערכת לדישון אורגני</p>
+                        </div>
+                    </div>
+                    <div id="home-walkways" class="col-12 col-md-6 col-xl-4 my-2 service-item services-reveal">
+                        <div class="overlay">
+                            <div class="underline w-50 mx-auto"></div>
+                            <h3 class="w-100 text-center">שבילים</h3>
+                            <p class="mt-3 text-center lead">הקמת שבילי אבן ומסלעות ממגוון סוגי אבן</p>
+                        </div>
+                    </div>
+                    <div id="home-ground" class="col-12 col-md-6 col-xl-4 my-2 service-item services-reveal">
+                        <div class="overlay">
+                            <div class="underline w-50 mx-auto"></div>
+                            <h3 class="w-100 text-center">חיפוי קרקע</h3>
+                            <p class="mt-3 text-center lead">טוף, חלוקי נחל, שבבי עץ, רסק גזם ועוד...</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

@@ -185,7 +185,63 @@ h1 {
     height: 40vw;
     background-size: 100% auto;
     background-clip: content-box;
-    transition: background-size 0.3s;
+}
+
+#services .service-item:hover {
+    /* background-size: 110% auto; */
+}
+
+#services .overlay {
+    background-color: rgba(0,0,0,0);
+    transition: all 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+#services h3 {
+    color: #fff;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5), 0 0 6px black;
+    font-size: 2.5rem;
+    transform: translateY(40%);
+    transition: all 0.3s 0.1s;
+}
+
+#services .underline {
+    height: 2px;
+    background-color: #fff;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5), 0 0 6px black;
+    opacity: 0;
+    transform: translateY(7rem);
+    transition: all 0.3s 0.1s;
+}
+
+#services .service-item p {
+    color: #fff;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5), 0 0 6px black;
+    opacity: 0;
+    transform: translateY(4rem);
+    transition: all 0.3s;
+}
+
+#services .service-item:hover > .overlay {
+    background-color: rgba(0,0,0,0.2);
+}
+
+#services .overlay:hover > h3 {
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+
+#services .overlay:hover > .underline {
+    opacity: 1;
+    transform: translateY(2.8rem);
+    transition: all 0.3s;
+}
+
+#services .overlay:hover > p {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s 0.1s;
 }
 
 #home-create {
@@ -210,21 +266,6 @@ h1 {
 
 #home-ground {
     background: url(../img/orange-flowers-rubbel-bg.jpg) no-repeat center center;
-}
-
-#services .col-12:hover {
-    background-size: 110% auto;
-    text-decoration: none;
-}
-
-#services .col-12:active {
-    opacity: 0.8;
-}
-
-#services h3 {
-    color: #fff;
-    text-shadow: 0 0 6px black;
-    font-size: 3rem;
 }
 
 /* services END */
