@@ -228,7 +228,7 @@ include_once "header.php";
             <div class="container-fluid">
                 <div class="row no-gutters">
                     <div class="col-6 d-none d-lg-block reveal">
-                        <img class="d-block w-100" src="img/trimmer-on-lawn.jpg" alt="">
+                        <img class="d-block w-100" src="img/trimmer-on-lawn.jpg" alt="חרמש מונח על דשא">
                     </div>
                     <div class="col-lg-6 text-center align-self-center mb-3 mb-lg-0 img-bg reveal">
                         <h3 class="mt-3 mt-lg-0">אודות</h3>
