@@ -3,7 +3,7 @@ main {
     font-family: 'assistant', sans-serif;
 }
 
-nav, h3 {
+h3 {
     font-family: 'heebo', sans-serif;
     color: #00a388;
 }
@@ -23,7 +23,8 @@ header {
     background: url(../img/purple-flowers.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
-    box-shadow: inset 0 0 12px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 12px rgba(0,0,0,0.5);
+            box-shadow: inset 0 0 12px rgba(0,0,0,0.5);
 }
 
 h1 {
@@ -41,7 +42,9 @@ h1 {
     opacity: 0.8;
     position: absolute;
     right: 50%;
-    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+            transform: translateX(50%);
     bottom: 70px;
 }
 
@@ -79,7 +82,9 @@ h1 {
 #cta #cta-wrap {
     background-color: #bd4932;
     border-radius: 10px;
-    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+            transform: translateY(50%);
     z-index: 100;
 }
 
@@ -91,6 +96,21 @@ h1 {
 
 .gold:active {
     opacity: 0.8;
+}
+
+#cta .missing::-webkit-input-placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+#cta .missing:-ms-input-placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+#cta .missing::-ms-input-placeholder {
+    color: red;
+    font-weight: bold;
 }
 
 #cta .missing::placeholder {
@@ -111,6 +131,8 @@ h1 {
 
 #services .overlay {
     background-color: rgba(0,0,0,0);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     width: 100%;
     height: 100%;
@@ -120,7 +142,11 @@ h1 {
     color: #fff;
     text-shadow: 0 0 2px rgba(0,0,0,0.5), 0 0 6px black;
     font-size: 2.5rem;
-    transform: translateY(40%);
+    -webkit-transform: translateY(40%);
+        -ms-transform: translateY(40%);
+            transform: translateY(40%);
+    -webkit-transition: all 0.3s 0.1s;
+    -o-transition: all 0.3s 0.1s;
     transition: all 0.3s 0.1s;
 }
 
@@ -129,7 +155,11 @@ h1 {
     background-color: #fff;
     text-shadow: 0 0 2px rgba(0,0,0,0.5), 0 0 6px black;
     opacity: 0;
-    transform: translateY(7rem);
+    -webkit-transform: translateY(7rem);
+        -ms-transform: translateY(7rem);
+            transform: translateY(7rem);
+    -webkit-transition: all 0.3s 0.1s;
+    -o-transition: all 0.3s 0.1s;
     transition: all 0.3s 0.1s;
 }
 
@@ -137,7 +167,11 @@ h1 {
     color: #fff;
     text-shadow: 0 0 2px rgba(0,0,0,0.5), 0 0 6px black;
     opacity: 0;
-    transform: translateY(4rem);
+    -webkit-transform: translateY(4rem);
+        -ms-transform: translateY(4rem);
+            transform: translateY(4rem);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -146,19 +180,31 @@ h1 {
 }
 
 #services .overlay:hover > h3 {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 
 #services .overlay:hover > .underline {
     opacity: 1;
-    transform: translateY(2.8rem);
+    -webkit-transform: translateY(2.8rem);
+        -ms-transform: translateY(2.8rem);
+            transform: translateY(2.8rem);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 
 #services .overlay:hover > p {
     opacity: 1;
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transition: all 0.3s 0.1s;
+    -o-transition: all 0.3s 0.1s;
     transition: all 0.3s 0.1s;
 }
 
@@ -214,6 +260,8 @@ h1 {
     display: inline-block;
     cursor: pointer;
     opacity: 0.8;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -251,9 +299,13 @@ h1 {
 /* /ABOUT */
 /* FOOTER */
 footer {
+    background: -webkit-gradient(linear, left top, left bottom, from(#3d3934), to(#105b63));
+    background: -webkit-linear-gradient(#3d3934, #105b63);
+    background: -o-linear-gradient(#3d3934, #105b63);
     background: linear-gradient(#3d3934, #105b63);
     color: #fffbec;
-    box-shadow: inset 0 0 12px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 12px rgba(0,0,0,0.5);
+            box-shadow: inset 0 0 12px rgba(0,0,0,0.5);
 }
 
 footer ul {
