@@ -80,7 +80,11 @@ h1 {
     visibility: hidden;
 }
 
-#cta .col {
+#cta {
+    margin-top: -2rem;
+}
+
+#cta #cta-wrap {
     background-color: #bd4932;
     border-radius: 10px;
     transform: translateY(50%);
@@ -240,7 +244,7 @@ h1 {
     background-color: #fffbec;
 }
 
-#about .img-bg {
+#about .img-bg, #about .img-seperate {
     background: url(../img/trimmer-on-lawn.jpg) no-repeat center center;
     background-size: cover;
     background-clip: content-box;
@@ -292,6 +296,9 @@ footer .icons {
     }
     #services {
         padding-top: 3rem!important;
+    }   
+    #cta {
+        margin-top: -4rem;
     }
 }
 /* form wrap size END */
@@ -306,6 +313,10 @@ footer .icons {
 @media screen and (min-width: 768px) {
     #services .service-item {
         height: 25vw;
+    }
+
+    #cta {
+        margin-top: 0;
     }
 }
 /* tablet size END */

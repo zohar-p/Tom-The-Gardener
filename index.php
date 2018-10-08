@@ -4,7 +4,7 @@ include_once "header.php";
 
     <main>
         <!-- benefits START -->
-        <section id="benefits" class="mt-3">
+        <section id="benefits" class="mt-4">
             <div class="container">
                 <div class="row justify-content-center">
                     <div id="happy-costumers" class="col-12 col-md-6 col-xl-4 text-center mt-md-3 reveal">
@@ -46,7 +46,7 @@ include_once "header.php";
             } ?>
             <div class="container">
                 <div class="row">
-                    <div class="col w-100">
+                    <div id="cta-wrap" class="col w-100">
                         <form class="form-inline p-2" action="includes/form-handler.inc.php" method="POST">
                             <div class="form-group mx-auto ml-md-5 mr-md-0 mb-2 mb-md-0">                                
                                 <label for="name">
@@ -254,12 +254,11 @@ include_once "header.php";
         <section id="about" class="py-3">
             <div class="container-fluid">
                 <div class="row no-gutters">
-                    <div class="col-6 d-none d-lg-block reveal">
-                        <img class="d-block w-100" src="img/trimmer-on-lawn.jpg" alt="חרמש מונח על דשא">
+                    <div class="col-6 d-none d-lg-block img-seperate reveal">
                     </div>
-                    <div class="col-lg-6 text-center align-self-center mb-3 mb-lg-0 img-bg reveal">
+                    <div class="col-lg-6 text-center align-self-center img-bg reveal">
                         <h3 class="mt-3 mt-lg-0">אודות</h3>
-                        <p class="px-2 px-sm-4 px-md-5">המון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלו</p>
+                        <p class="px-2 px-sm-4 px-md-5 lead">המון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלו</p>
                     </div>
                 </div>
             </div>
