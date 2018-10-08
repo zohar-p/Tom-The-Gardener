@@ -36,6 +36,7 @@ header {
     background: url(../img/purple-flowers.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
+    box-shadow: inset 0 0 12px rgba(0,0,0,0.5);
 }
 
 h1 {
@@ -177,8 +178,8 @@ h1 {
 /* services START */
 #services {
     background-color: #fffbec;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    /* padding-top: 3rem;
+    padding-bottom: 2rem; */
 }
 
 #services .service-item {
@@ -314,6 +315,10 @@ h1 {
 
 /* gallery END */
 /* ABOUT */
+#about {
+    background-color: #fffbec;
+}
+
 #about .img-bg {
     background: url(../img/trimmer-on-lawn.jpg) no-repeat center center;
     background-size: cover;
@@ -329,8 +334,9 @@ h1 {
 /* /ABOUT */
 /* FOOTER */
 footer {
-    background-color: #3d3934;
+    background: linear-gradient(#3d3934, #105b63);
     color: #fffbec;
+    box-shadow: inset 0 0 12px rgba(0,0,0,0.5);
 }
 
 footer ul {
@@ -342,8 +348,12 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffd34e;
+    color: #00a388;
     text-decoration: none;
+}
+
+footer a:active {
+    opacity: 0.8;
 }
 
 footer .icons {

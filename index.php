@@ -89,8 +89,8 @@ include_once "header.php";
         </section>
         <!-- CTA END -->
         <!-- services START -->
-        <section id="services">
-            <div class="container-fluid pt-5 pt-sm-0">
+        <section id="services" class="pt-3 pt-md-0">
+            <div class="container-fluid pt-5 pb-2">
                 <div class="row">
                     <div id="home-create" class="col-12 col-md-6 col-xl-4 my-2 service-item services-reveal">
                         <div class="overlay">
@@ -141,7 +141,7 @@ include_once "header.php";
         <div class="container-fluid p-0">
             <div class="row no-gutters">
                 <!-- gallery START -->
-                <section id="gallery" class="col-xl-8 mb-3">
+                <section id="gallery" class="col-lg-8 col-xl-7 py-3">
                     <div class="product-slider">
                         <div id="carousel" class="carousel slide reveal" data-ride="carousel">
                             <div class="carousel-inner">
@@ -215,32 +215,34 @@ include_once "header.php";
                     </section>
                     <!-- gallery END -->
                     <!-- testimonials START -->
-                    <section id="testimonials" class="col-xl-4 px-3">
-                        <div class="testimonial-item testimonials-reveal">
-                            <blockquote id="testimmonial-1" class="blockquote">
-                                <i class="fas fa-quote-right"></i>
-                                <p class="text-center">
-                                    צציטוט ההמלצה של הלקוח והחוויה החיובית והנפלאה שלו עם תום, לנסות להוציא מהלקוחות המלצה של שניים שלושה משפטים<br><i class="fas fa-quote-left d-block text-left"></i></p>
-                            </blockquote>
-                            <cite class="d-block text-left">שם הלקוח</cite>
-                            <hr class="w-50">
-                        </div>
-                        <div class="testimonial-item testimonials-reveal">
-                            <blockquote id="testimmonial-2" class="blockquote">
-                                <i class="fas fa-quote-right"></i>
-                                <p class="text-center">
-                                    יטוט ההמלצה של הלקוח והחוויה החיובית והנפלאה שלו עם תום, לנסות להוציא מהלקוחות המלצה של שניים שלושה משפטים<br><i class="fas fa-quote-left d-block text-left"></i></p>
-                            </blockquote>
-                            <cite class="d-block text-left">שם הלקוח</cite>
-                            <hr class="w-50">
-                        </div>
-                        <div class="testimonial-item testimonials-reveal">
-                            <blockquote id="testimmonial-3" class="blockquote">
-                                <i class="fas fa-quote-right"></i>
-                                <p class="text-center">
-                                    צציטוט ההמלצה של הלקוח והחוויה החיובית והנפלאה שלו עם תום, לנסות להוציא מהלקוחות המלצה של שניים שלושה משפטים<br><i class="fas fa-quote-left d-block text-left"></i></p>
-                            </blockquote>
-                            <cite class="d-block text-left">שם הלקוח</cite>
+                    <section id="testimonials" class="col-lg-4 col-xl-5 py-3">
+                        <div class="row mx-3 h-100">
+                            <div class="testimonial-item testimonials-reveal">
+                                <blockquote id="testimmonial-1" class="blockquote">
+                                    <i class="fas fa-quote-right"></i>
+                                    <p class="text-center">
+                                        צציטוט ההמלצה של הלקוח והחוויה החיובית והנפלאה שלו עם תום, לנסות להוציא מהלקוחות המלצה של שניים שלושה משפטים<br><i class="fas fa-quote-left d-block text-left"></i></p>
+                                </blockquote>
+                                <cite class="d-block text-left">שם הלקוח</cite>
+                                <hr class="w-50">
+                            </div>
+                            <div class="testimonial-item testimonials-reveal align-self-center">
+                                <blockquote id="testimmonial-2" class="blockquote">
+                                    <i class="fas fa-quote-right"></i>
+                                    <p class="text-center">
+                                        יטוט ההמלצה של הלקוח והחוויה החיובית והנפלאה שלו עם תום, לנסות להוציא מהלקוחות המלצה של שניים שלושה משפטים<br><i class="fas fa-quote-left d-block text-left"></i></p>
+                                </blockquote>
+                                <cite class="d-block text-left">שם הלקוח</cite>
+                                <hr class="w-50">
+                            </div>
+                            <div class="testimonial-item testimonials-reveal align-self-end">
+                                <blockquote id="testimmonial-3" class="blockquote">
+                                    <i class="fas fa-quote-right"></i>
+                                    <p class="text-center">
+                                        צציטוט ההמלצה של הלקוח והחוויה החיובית והנפלאה שלו עם תום, לנסות להוציא מהלקוחות המלצה של שניים שלושה משפטים<br><i class="fas fa-quote-left d-block text-left"></i></p>
+                                </blockquote>
+                                <cite class="d-block text-left">שם הלקוח</cite>
+                            </div>
                         </div>
                     </section>
                     <!-- testimonials END -->
@@ -248,7 +250,7 @@ include_once "header.php";
                 </div>
             </div>
         <!-- ABOUT -->
-        <section id="about" class="mb-3">
+        <section id="about" class="py-3">
             <div class="container-fluid">
                 <div class="row no-gutters">
                     <div class="col-6 d-none d-lg-block reveal">
