@@ -192,7 +192,6 @@ include_once "header.php";
                                 <span class="sr-only">הבא</span>
                             </a>
                         </div>
-                        <!-- <div class="clearfix"> -->
                         <div id="thumbcarousel" class="carousel slide d-none d-md-block" data-interval="false" dir="ltr">
                             <div class="carousel-inner">
                                 <div class="item active">
@@ -211,7 +210,6 @@ include_once "header.php";
                                 </div>
                             </div>
                         </div>
-                        <!-- </div> -->
                         </div>
                     </section>
                     <!-- gallery END -->
