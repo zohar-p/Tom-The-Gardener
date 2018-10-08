@@ -75,6 +75,52 @@ h1 {
     visibility: hidden;
 }
 
+#cta .modal-body {
+    position: fixed;
+    top: 5rem;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+            transform: translateX(50%);
+    z-index: 2000;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    color: #00a388;
+    -webkit-animation: disapear 8s 1 forwards;
+            animation: disapear 8s 1 forwards; 
+}
+
+@-webkit-keyframes disapear {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes disapear {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 #cta {
     margin-top: -2rem;
 }
