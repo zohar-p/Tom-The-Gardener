@@ -64,6 +64,7 @@ include_once "header.php";
                                         }?>
                                 </label>
                             </div>
+                            <div class="d-none form-wrap w-100"></div>
                             <div class="form-group mx-auto ml-md-0 mr-md-0 mb-2 mb-md-0">                                
                                 <label for="phone">
                                     <span class="sr-only">מלא מספר טלפון</span>
