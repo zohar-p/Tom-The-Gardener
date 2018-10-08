@@ -225,8 +225,8 @@ include_once "header.php";
                                         צציטוט ההמלצה של הלקוח והחוויה החיובית והנפלאה שלו עם תום, לנסות להוציא מהלקוחות המלצה של שניים שלושה משפטים<br><i class="fas fa-quote-left d-block text-left"></i></p>
                                 </blockquote>
                                 <cite class="d-block text-left">שם הלקוח</cite>
-                                <hr class="w-50">
                             </div>
+                            <hr class="w-50 my-auto">
                             <div class="testimonial-item testimonials-reveal align-self-center">
                                 <blockquote id="testimmonial-2" class="blockquote">
                                     <i class="fas fa-quote-right"></i>
@@ -234,8 +234,8 @@ include_once "header.php";
                                         יטוט ההמלצה של הלקוח והחוויה החיובית והנפלאה שלו עם תום, לנסות להוציא מהלקוחות המלצה של שניים שלושה משפטים<br><i class="fas fa-quote-left d-block text-left"></i></p>
                                 </blockquote>
                                 <cite class="d-block text-left">שם הלקוח</cite>
-                                <hr class="w-50">
                             </div>
+                            <hr class="w-50 my-auto">
                             <div class="testimonial-item testimonials-reveal align-self-end">
                                 <blockquote id="testimmonial-3" class="blockquote">
                                     <i class="fas fa-quote-right"></i>

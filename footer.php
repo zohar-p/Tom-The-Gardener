@@ -7,7 +7,7 @@
                     <li class="mb-sm-2"><a href="tel:+972526315320"><i class="fas fa-phone fa-2x d-sm-none"></i><span class="d-none d-sm-inline">0526315320</span></a></li>
                     <li class="mb-sm-2"><a href="mailto:tompfeffer1@gmail.com"><i class="fas fa-envelope fa-2x d-sm-none"></i><span class="d-none d-sm-inline">tompfeffer1@gmail.com</span></a></li>
                     <li class="mb-sm-2 align-self-start"><a href="https://www.facebook.com/tomhaganan/" target="_blank"><i class="fab fa-facebook-square fa-2x d-sm-none"></i><span class="d-none d-sm-inline"> "תום הגנן" בפייסבוק</span></a></li>
-                    <li class="mb-sm-2 align-self-start"><a href="https://goo.gl/maps/idTQdB2bJi52" target="_blank"><i class="fas fa-map-marker-alt fa-2x d-sm-none"></i><span class="d-none d-sm-inline">החרמון 9, מטולה</span></a></li> <!-- work -->
+                    <li class="mb-sm-2 align-self-start"><a href="https://goo.gl/maps/idTQdB2bJi52" target="_blank"><i class="fas fa-map-marker-alt fa-2x d-sm-none"></i><span class="d-none d-sm-inline">החרמון 9, מטולה</span></a></li>
                 </ul>
             </div>
             <hr class="d-sm-none col-11">
