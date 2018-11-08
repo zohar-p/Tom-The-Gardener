@@ -176,7 +176,7 @@ h1 {
 }
 
 #services .overlay {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,.2);
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
@@ -188,9 +188,6 @@ h1 {
     color: #fff;
     text-shadow: 0 0 2px rgba(0,0,0,0.5), 0 0 6px black;
     font-size: 2.5rem;
-    -webkit-transform: translateY(40%);
-        -ms-transform: translateY(40%);
-            transform: translateY(40%);
     -webkit-transition: all 0.3s 0.1s;
     -o-transition: all 0.3s 0.1s;
     transition: all 0.3s 0.1s;
@@ -200,10 +197,9 @@ h1 {
     height: 2px;
     background-color: #fff;
     text-shadow: 0 0 2px rgba(0,0,0,0.5), 0 0 6px black;
-    opacity: 0;
-    -webkit-transform: translateY(7rem);
-        -ms-transform: translateY(7rem);
-            transform: translateY(7rem);
+    -webkit-transform: translateY(2.8rem);
+    -ms-transform: translateY(2.8rem);
+        transform: translateY(2.8rem);
     -webkit-transition: all 0.3s 0.1s;
     -o-transition: all 0.3s 0.1s;
     transition: all 0.3s 0.1s;
@@ -212,13 +208,35 @@ h1 {
 #services .service-item p {
     color: #fff;
     text-shadow: 0 0 2px rgba(0,0,0,0.5), 0 0 6px black;
-    opacity: 0;
-    -webkit-transform: translateY(4rem);
-        -ms-transform: translateY(4rem);
-            transform: translateY(4rem);
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+}
+
+@media screen and (min-width: 992px) { /* make hover animation only apply to desktop sizes */
+    #services .overlay {
+        background-color: rgba(0,0,0,0);
+    }
+
+    #services h3 {
+        -webkit-transform: translateY(40%);
+        -ms-transform: translateY(40%);
+            transform: translateY(40%);
+    }
+
+    #services .underline {
+        opacity: 0;
+        -webkit-transform: translateY(7rem);
+            -ms-transform: translateY(7rem);
+                transform: translateY(7rem);
+    }
+
+    #services .service-item p {
+        opacity: 0;
+        -webkit-transform: translateY(4rem);
+            -ms-transform: translateY(4rem);
+                transform: translateY(4rem);
+    }
 }
 
 #services .service-item:hover > .overlay {
