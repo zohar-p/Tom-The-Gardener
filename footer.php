@@ -7,7 +7,7 @@
                     <li class="mb-sm-2"><a href="tel:+972526315320"><i class="fas fa-phone fa-2x d-sm-none"></i><span class="d-none d-sm-inline">0526315320</span></a></li>
                     <li class="mb-sm-2"><a href="mailto:tompfeffer1@gmail.com"><i class="fas fa-envelope fa-2x d-sm-none"></i><span class="d-none d-sm-inline">tompfeffer1@gmail.com</span></a></li>
                     <li class="mb-sm-2 align-self-start"><a href="https://www.facebook.com/tomhaganan/" target="_blank"><i class="fab fa-facebook-square fa-2x d-sm-none"></i><span class="d-none d-sm-inline"> "תום הגנן" בפייסבוק</span></a></li>
-                    <li class="mb-sm-2 align-self-start"><a href="https://goo.gl/maps/idTQdB2bJi52" target="_blank"><i class="fas fa-map-marker-alt fa-2x d-sm-none"></i><span class="d-none d-sm-inline">החרמון 9, מטולה</span></a></li>
+                    <li class="mb-sm-2 align-self-start"><a href="https://goo.gl/maps/VCmyevisGnA2" target="_blank"><i class="fas fa-map-marker-alt fa-2x d-sm-none"></i><span class="d-none d-sm-inline">החרמון, מטולה</span></a></li>
                 </ul>
             </div>
             <hr class="d-sm-none col-11">
@@ -23,12 +23,12 @@
             </div>
             <div class="col text-center order-3">
                 <ul class="p-0 m-0">
-                    <li class="mb-2"><a href="#services">הקמה ופיתוח</a></li>
-                    <li class="mb-2"><a href="#services">אחזקה שוטפת</a></li>
-                    <li class="mb-2"><a href="#services">שיקום</a></li>
-                    <li class="mb-2"><a href="#services">מערכות השקייה</a></li>
-                    <li class="mb-2"><a href="#services">שבילים</a></li>
-                    <li class="mb-2"><a href="#services">חיפוי קרקע</a></li>
+                    <li class="mb-2"><a href="#home-create">הקמה ופיתוח</a></li>
+                    <li class="mb-2"><a href="#home-maintain">אחזקה שוטפת</a></li>
+                    <li class="mb-2"><a href="#home-fix">שיקום</a></li>
+                    <li class="mb-2"><a href="#home-irrigation">מערכות השקייה</a></li>
+                    <li class="mb-2"><a href="#home-walkways">שבילים</a></li>
+                    <li class="mb-2"><a href="#home-ground">חיפוי קרקע</a></li>
                 </ul>
             </div>
         </div>
