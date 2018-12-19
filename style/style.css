@@ -357,8 +357,9 @@ h1 {
 
 #about .img-bg h3,
 #about .img-bg p {
+    opacity: 1;
     color: #fff;
-    text-shadow: 0 0 4px black;
+    text-shadow: 0 0 4px black, 0 0 2px rgba(0,0,0,.5);
 }
 /* /ABOUT */
 /* FOOTER */

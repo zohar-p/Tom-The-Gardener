@@ -10,17 +10,19 @@ include_once "header.php";
                 <div id="happy-costumers" class="col-12 col-md-6 col-xl-4 text-center mt-md-3 reveal">
                     <i class="far fa-grin"></i>
                     <h3>לקוחות מרוצים</h3>
-                    <p>טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום</p>
+                    <p>נדיר מאוד שתראו פרסום שלנו, הלקוחות עושים זאת בשבילנו.<br>
+                    חבר מביא חבר, שכן מביא שכן</p>
                 </div>
                 <div id="personal-service" class="col-12 col-md-6 col-xl-4 text-center mt-3 benefits-reveal">
                     <i class="far fa-handshake"></i>
                     <h3>שירות אישי</h3>
-                    <p>טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום</p>
+                    <p>עונה אחר עונה, שנה אחר שנה, אנחנו מגיעים אל כל גינה ומעניקים לה את הטיפול הדרוש לה על פי צרכיה ודרישות הלקוח כדי לשגשג ולפרוח.</p>
                 </div>
                 <div id="professional" class="col-12 col-md-6 col-xl-4 text-center mt-3 mt-md-5 mt-xl-3 benefits-reveal">
                     <i class="fas fa-award"></i>
                     <h3>מקצועיות</h3>
-                    <p>טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום טקסט למילוי מקום</p>
+                    <p>מתי לגזום את הורדים? איך לחסוך במים? האם אפשר להמנע מעשביה בחודשי החורף? האם כדאי לדשן?<br>
+                        אצלנו התשובות לכל אלו ועוד...</p>
                 </div>
             </div>
         </div>
@@ -219,28 +221,28 @@ include_once "header.php";
                     <div class="testimonial-item testimonials-reveal">
                         <blockquote id="testimmonial-1" class="blockquote">
                             <i class="fas fa-quote-right"></i>
-                            <p class="text-center">
-                                צציטוט ההמלצה של הלקוח והחוויה החיובית והנפלאה שלו עם תום, לנסות להוציא מהלקוחות המלצה של שניים שלושה משפטים<br><i class="fas fa-quote-left d-block text-left"></i></p>
+                            <p class="text-center">הגינה שלנו נפלאה בזכות תום הגנן המסור. תום נותן לנו טיפול אישי וחם, אנחנו ממליצים לשכור את שירותי הגינון שלו!
+                                <br><i class="fas fa-quote-left d-block text-left"></i></p>
                         </blockquote>
-                        <cite class="d-block text-left">שם הלקוח</cite>
+                        <cite class="d-block text-left">משפחת יהלום</cite>
                     </div>
                     <hr class="w-50 my-auto">
                     <div class="testimonial-item testimonials-reveal align-self-center">
                         <blockquote id="testimmonial-2" class="blockquote">
                             <i class="fas fa-quote-right"></i>
-                            <p class="text-center">
-                                יטוט ההמלצה של הלקוח והחוויה החיובית והנפלאה שלו עם תום, לנסות להוציא מהלקוחות המלצה של שניים שלושה משפטים<br><i class="fas fa-quote-left d-block text-left"></i></p>
+                            <p class="text-center">כשהלב, הנשמה, המקצועיות ואהבה נפגשים אצלך בגינה אתה יודע שתום מנצח על העבודה. יש חלומות ויש גינות, גינה חלומית זה תום.
+                                <br><i class="fas fa-quote-left d-block text-left"></i></p>
                         </blockquote>
-                        <cite class="d-block text-left">שם הלקוח</cite>
+                        <cite class="d-block text-left">רחל דלקור</cite>
                     </div>
                     <hr class="w-50 my-auto">
                     <div class="testimonial-item testimonials-reveal align-self-end">
                         <blockquote id="testimmonial-3" class="blockquote">
                             <i class="fas fa-quote-right"></i>
-                            <p class="text-center">
-                                צציטוט ההמלצה של הלקוח והחוויה החיובית והנפלאה שלו עם תום, לנסות להוציא מהלקוחות המלצה של שניים שלושה משפטים<br><i class="fas fa-quote-left d-block text-left"></i></p>
+                            <p class="text-center">תום ועובדיו הינם צוות אדיב, נעים והכי חשוב מקצועי. קשובים לצרכים ולרצונות הלקוח תוך מתן ייעוץ ועזרה, ממליצה בחום!
+                                <br><i class="fas fa-quote-left d-block text-left"></i></p>
                         </blockquote>
-                        <cite class="d-block text-left">שם הלקוח</cite>
+                        <cite class="d-block text-left">משפחת דעי</cite>
                     </div>
                 </div>
             </section>
@@ -253,9 +255,10 @@ include_once "header.php";
             <div class="row no-gutters">
                 <div class="col-6 d-none d-lg-block img-seperate reveal">
                 </div>
-                <div class="col-lg-6 text-center align-self-center img-bg reveal">
+                <div class="col-lg-6 text-center img-bg reveal">
                     <h3 class="mt-3 mt-lg-0">אודות</h3>
-                    <p class="px-2 px-sm-4 px-md-5 lead">המון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלוהמון טקסט רנדומלי שמספר על תום והעסק שלו</p>
+                    <p class="px-2 px-sm-4 px-md-5 mt-5 lead">העסק פעיל משנת 2012 ומספק שירותי גינון ברחבי עמק החולה ואזור קרית שמונה.<br>
+                                                        העבודה מתבצעת תוך שמירה על רמת שירותיות גבוהה ומתן מענה לצרכי הגינה ובקשות הלקוח והכל בשמחה ובאהבה למקצוע.</p>
                 </div>
             </div>
         </div>
